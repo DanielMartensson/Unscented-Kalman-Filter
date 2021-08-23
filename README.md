@@ -155,7 +155,7 @@ end
 
 # Results
 
-Here I have measure with VL6180x laser from ST Microeletronics. It’s a very cheep laser and with UKF filter, this laser gives a very more accurate measurement. I have measure an object from a fixed distance.
+Here I have measured with VL6180x laser from ST Microeletronics. It’s a very cheep laser and with UKF filter, this laser gives a very more accurate measurement. I have measure an object from a fixed distance.
 
 ## Average and standard deviation with moving average
 
