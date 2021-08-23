@@ -169,7 +169,7 @@ The deviation is about 1.5 mm.
 
 ## Distribution
 
-Total measurements give an average about 15 mm.
+Total measurements give an average about 15 mm, but more closer to 14.5 mm.
 
 ![a](https://raw.githubusercontent.com/DanielMartensson/STM32-Libraries/master/VL6180X/Distribution/Distribution.png)
 
