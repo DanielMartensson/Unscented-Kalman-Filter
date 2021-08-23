@@ -10,7 +10,7 @@ I have created created UKF in both `C` code and `MATLAB` code.
 
 `C` code example using ![CControl](https://github.com/DanielMartensson/CControl) library 
 
-```
+```c
 /*
  ============================================================================
  Name        : ukf.c
@@ -107,7 +107,7 @@ int main() {
 
 `MATLAB` code example.
 
-```
+```matlab
 /*
  * GNU Octave code:
  *
