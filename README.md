@@ -30,12 +30,12 @@ int main() {
 	float a = 0.5; 				// Alpha value
 	float b = 2; 				// Beta value
 	float k = 1; 				// Kappa value
-	float Q[1 * 1] = { 0.0001 }; 	// Initial disturbance covariance matrix
+	float Q[1 * 1] = { 0.0001 }; 		// Initial disturbance covariance matrix
 	float R[1 * 1] = { 2 }; 		// Initial noise covariance matrix
 	float P[1 * 1] = { 1 }; 		// Initial covariance matrix
-	float xhat[1] = { 15 }; // Initial estimated state, a rule of thumb: Use a regular measurement only
+	float xhat[1] = { 15 }; 		// Initial estimated state, a rule of thumb: Use a regular measurement only
 	float zk[1] = { 0 };			// This is our measurement
-	float u[1] = { 0 }; // u is not used in this example due to the transition function not using a input signal
+	float u[1] = { 0 }; 			// u is not used in this example due to the transition function not using a input signal
 
 	// Our transition function is a random variable
 	void ukf_transition(float x[], float s[], float u[], uint8_t L) {
