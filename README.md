@@ -108,9 +108,6 @@ int main() {
 `MATLAB` code example.
 
 ```matlab
-/*
- * GNU Octave code:
- *
 function Unscented_Kalman_Filter()
 
   % Initial parameters
@@ -149,7 +146,6 @@ function Unscented_Kalman_Filter()
   legend('UKF', 'Real')
   grid on
 end
- */
 ```
 
 
