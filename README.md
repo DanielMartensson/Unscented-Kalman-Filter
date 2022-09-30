@@ -6,9 +6,11 @@ The next generation of KF was the Extended Kalman Filter(EKF) and it was a succe
 
 So therefore, another filter was created to replace EKF, it was Unscented Kalman Filter(UKF) and it was the most successful kalman filter ever made. It has its orgins from 1997, when the first paper was released. “A New Extension of the Kalman Filter to Nonlinear Systems” by Simon J. Julier and Jeffrey K. Uhlmann.
 
-I have created created UKF in both `C` code and `MATLAB` code.
+I have created created UKF in both `C` code and `MATLAB` code. Notice that there is a Square Root Uncented Kalman Filter too. It's much better than regular Uncented Kalman Filter because it's more stable.
+
 
 `C` code example using ![CControl](https://github.com/DanielMartensson/CControl) library 
+
 
 ```c
 /*
